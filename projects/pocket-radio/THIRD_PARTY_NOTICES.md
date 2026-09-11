@@ -11,4 +11,4 @@ Pinned build dependencies:
 - ESP-IDF 4.4.7: Apache-2.0 and component-specific licenses. Vendor binary libraries retain Espressif's notices; https://github.com/espressif/esp-idf/tree/v4.4.7
 - PlatformIO espressif32 6.12.0: Apache-2.0 build platform; https://github.com/platformio/platform-espressif32/tree/v6.12.0
 
-Release preparation preserves the installed dependency files and recursively retrieves ESP-IDF v4.4.7 sources. These materials include component license notices. Exact SDK binary provenance and the complete corresponding-source review remain tracked in docs/license-review.md; this inventory is not a claim that the review has finished.
+Release preparation preserves the installed dependency files and recursively retrieves ESP-IDF v4.4.7 sources. These materials include component license notices. See release/SOURCE.md for archive contents and rebuild instructions. This inventory does not claim a comprehensive legal audit.

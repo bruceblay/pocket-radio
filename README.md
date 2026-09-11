@@ -4,7 +4,7 @@ A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in s
 
 <img src="docs/images/pocket-radio-playing.png" alt="Pocket Radio playing Tiki Time on a StickS3" width="720">
 
-**Status:** preparing the first release, `0.1.0`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
+**Version 0.1.0:** [Download firmware and source](https://github.com/bruceblay/pocket-radio/releases/tag/v0.1.0). Clean installation through M5Burner, phone Wi-Fi setup, and playback have been confirmed on a StickS3. M5Burner public review is pending.
 
 ## Features
 

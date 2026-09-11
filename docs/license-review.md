@@ -1,6 +1,6 @@
 # Pocket Radio distribution review — September 11, 2026
 
-Bruce approved GPL-3.0-or-later for original Pocket Radio code on September 11, 2026. The license text is in the repository root and firmware project. Upstream files retain their original notices. Dependency corresponding-source preparation remains in progress.
+Bruce approved GPL-3.0-or-later for original Pocket Radio code on September 11, 2026. The license text is in the repository root and firmware project. Upstream files retain their original notices. Release materials include the project source, full installed dependency inputs and their notices, plus ESP-IDF v4.4.7 with recursive submodules.
 
 Read directly from the installed, pinned source:
 
@@ -15,6 +15,6 @@ Read directly from the installed, pinned source:
 
 This inventory is preliminary. It does not establish that every statically linked SDK, font, or codec component has been reviewed. ESP8266Audio ships additional codecs even though this app uses MP3; distinguish linked code from merely installed source using the final link map.
 
-Before public distribution, finalize the project license, collect applicable notices, and prepare the corresponding source and build materials for the actual linked firmware. The current source archive contains our project files, not all dependency sources. Do not label that archive as a complete compliance bundle.
+The release distributes these materials separately: project source, dependency build inputs (M5Unified, M5GFX, ESP8266Audio, Arduino framework and PlatformIO platform), and ESP-IDF v4.4.7 source with submodules. Dependency inputs preserve the exact installed SDK binaries and headers used by PlatformIO, alongside available source and notices. See release/SOURCE.md for rebuilding and archive contents. No claim of a comprehensive legal audit is made.
 
 Primary source repositories: [M5Unified](https://github.com/m5stack/M5Unified), [M5GFX](https://github.com/m5stack/M5GFX), [ESP8266Audio 1.9.7](https://github.com/earlephilhower/ESP8266Audio/tree/1.9.7), [Arduino ESP32 2.0.17](https://github.com/espressif/arduino-esp32/tree/2.0.17).

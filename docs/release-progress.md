@@ -17,3 +17,5 @@ Next: finish applicable dependency source/notices; verify the exact factory imag
 ## M5Burner clean install
 
 Bruce authorized clearing settings and selected the USB port in Chrome. On September 11, 2026 at 13:11 CDT, M5Burner downloaded Pocket Radio 0.1.0, erased the chip, wrote the 8,388,608-byte image at offset 0x0, verified the flash header, reset the device, and reported “Burn successfully.” This confirms the web uploader accepts the raw factory image. The website reports header verification, not a full-image checksum readback. First-run phone provisioning and playback after this installation await user confirmation.
+
+Bruce confirmed fresh phone setup and station playback after the M5Burner installation. Public submission is authorized. Extended recovery and all-station testing remain as recorded in release-acceptance.md.
