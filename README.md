@@ -4,6 +4,12 @@ A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in s
 
 **Status:** early release candidate, `0.1.0-rc1`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
 
+- [Platform research and decisions](docs/platform-notes.md)
+- [Pocket Radio release checklist](docs/release-checklist.md)
+- [Release candidate build and packaging](projects/pocket-radio/release/README.md)
+- [Hardware acceptance record](docs/release-acceptance.md)
+- [Contributing](CONTRIBUTING.md)
+
 ## Features
 
 - Phone-based Wi-Fi setup with nearby network suggestions; no credentials in source code.
@@ -27,16 +33,6 @@ Uploading replaces the device's current app. For upload mode, connect USB and ho
 Tap **A** to change stations; hold A to stop/resume. Tap **B** for volume up; hold B for volume down. Hold **A+B for 1.5 seconds** to reopen setup. **Double-click the separate side power/reset button to power off.**
 
 See the [full setup, controls, limitations, and test instructions](projects/pocket-radio/README.md).
-
-## Development
-
-- [Platform research and decisions](docs/platform-notes.md)
-- [Pocket Radio release checklist](docs/release-checklist.md)
-- [Release candidate build and packaging](projects/pocket-radio/release/README.md)
-- [Hardware acceptance record](docs/release-acceptance.md)
-- [Contributing](CONTRIBUTING.md)
-
-The firmware lives in `projects/pocket-radio/`; shared research and release notes live in `docs/`. Build checks run on pushes and pull requests. Please report playback issues with the station, firmware version, power source, and relevant diagnostics—never Wi-Fi passwords or device flash dumps.
 
 ## Credits and licensing status
 
