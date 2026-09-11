@@ -2,6 +2,8 @@
 
 A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in speaker, choose your stations from a phone, and shake the radio to change its monochrome color.
 
+<img src="docs/images/pocket-radio-playing.png" alt="Pocket Radio playing Tiki Time on a StickS3" width="720">
+
 **Status:** early release candidate, `0.1.0-rc1`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
 
 ## Features
@@ -10,6 +12,20 @@ A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in s
 - Ten station choices, with six selected by default: Tiki Time, Illinois Street Lounge, KEXP, NTS 1, KCRW Eclectic 24, and Radio Paradise.
 - Optional Bossa Beyond, Secret Agent, Suburbs of Goa, and Heavyweight Reggae.
 - Saved station selection and color, play/stop controls, volume adjustment, and approximate battery readout.
+
+## On the device and your phone
+
+The radio displays the details for joining its setup network. Your phone handles Wi-Fi selection and station choices.
+
+<img src="docs/images/pocket-radio-setup.png" alt="StickS3 setup instructions with the temporary password obscured" width="720">
+
+<p>
+  <img src="docs/images/phone-wifi.png" alt="Phone Wi-Fi picker with nearby network names obscured" width="230">
+  <img src="docs/images/phone-stations.jpg" alt="Station selection with the original six checked and optional stations below" width="230">
+  <img src="docs/images/phone-connecting.jpg" alt="Phone showing connection progress after submitting Wi-Fi settings" width="230">
+</p>
+
+Device photos are cropped; the setup password and nearby Wi-Fi names are obscured.
 
 ## Build and try it
 
