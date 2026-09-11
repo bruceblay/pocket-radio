@@ -21,3 +21,7 @@ The user intends to publish Pocket Radio and wants to resume tomorrow. Defer imp
 ## Wi-Fi implementation — September 11, 2026
 
 Phone-based setup is implemented in `WifiSetup.h`, using Arduino's built-in WebServer/DNSServer and Preferences. The current firmware no longer includes `secrets.h`; earlier notes about compiled credentials apply to older binaries. First boot opens a password-protected temporary AP. A+B held for 1.5 seconds reopens setup. A successful connection saves one credential record; failure preserves the old record. Public firmware must still be built cleanly, and configured-device flash exports still contain private NVS settings. Hardware/phone testing is pending because no USB device was present during implementation.
+
+## Public source repository — September 11, 2026
+
+Created https://github.com/bruceblay/pocket-radio publicly at the owner's request. Main branch contains the source, setup/build instructions, tests, and release notes. A read-only GitHub Actions workflow runs host tests and builds firmware without credentials. Staged files were checked against private network values before the first push; secrets.h, local packages, and device data are excluded. No firmware assets or M5Burner listing have been published. Original-code license choice and complete distribution review remain pending.

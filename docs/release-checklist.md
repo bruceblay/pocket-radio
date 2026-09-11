@@ -29,7 +29,7 @@ Updated September 11, 2026. Phone setup and station selection are implemented. I
 ## 4. Prepare source and release files
 
 - [ ] Choose the project license after reviewing the pinned dependencies and bundled codecs; retain upstream notices and include the appropriate corresponding source and build instructions.
-- [ ] Prepare the public GitHub repository with a quick start, controls, station list, supported hardware (StickS3), known limitations, credits, and issue-reporting instructions.
+- [x] Prepare the public GitHub repository with a quick start, controls, station list, supported hardware (StickS3), known limitations, credits, and issue-reporting instructions: https://github.com/bruceblay/pocket-radio
 - [ ] Choose the release name/version and tag the exact source used for the firmware. Keep dependency versions pinned and document a repeatable release build.
 - [ ] Build public firmware without personal credentials. Check source, repository history, release files, and logs for secrets without exposing them in reports.
 - [ ] Package a complete image suitable for M5Burner, with the correct flash layout and offsets; confirm the required format in the current publishing UI. Do not assume the application-only binary is sufficient.
@@ -62,5 +62,6 @@ Suggested order: decide Wi-Fi and stations → implement onboarding → hardware
 - [x] Add isolated release build/packaging script with blank-NVS verification, source hashes, and checksums.
 - [x] Draft the [M5Burner listing](../projects/pocket-radio/release/m5burner-listing.md).
 - [x] Prepare a [candidate hardware test record](release-acceptance.md).
-- [ ] Finalize license and GitHub account/repository (user preferences requested).
+- [x] Create public source repository: bruceblay/pocket-radio, main branch.
+- [ ] Finalize project license (preference requested; no license applied yet).
 - [ ] Test the candidate factory image in M5Burner; complete device acceptance and source/license preparation before publication.
