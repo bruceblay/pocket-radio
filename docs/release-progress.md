@@ -19,3 +19,9 @@ Next: finish applicable dependency source/notices; verify the exact factory imag
 Bruce authorized clearing settings and selected the USB port in Chrome. On September 11, 2026 at 13:11 CDT, M5Burner downloaded Pocket Radio 0.1.0, erased the chip, wrote the 8,388,608-byte image at offset 0x0, verified the flash header, reset the device, and reported “Burn successfully.” This confirms the web uploader accepts the raw factory image. The website reports header verification, not a full-image checksum readback. First-run phone provisioning and playback after this installation await user confirmation.
 
 Bruce confirmed fresh phone setup and station playback after the M5Burner installation. Public submission is authorized. Extended recovery and all-station testing remain as recorded in release-acceptance.md.
+
+## Publication
+
+GitHub release v0.1.0 is public: https://github.com/bruceblay/pocket-radio/releases/tag/v0.1.0 (tagged source commit 8bf77ba). All compiled src/include files match the factory-build manifest hashes. Eight release assets uploaded successfully: factory/app binaries, tagged project source, dependency inputs, ESP-IDF source, GPL text, SOURCE.md and SHA256SUMS.
+
+M5Burner public visibility was requested successfully after clean-install confirmation. The developer dashboard reports **Pending Public** for version 0.1.0. Store approval and public discoverability are not yet confirmed. Firmware ID: 2098472213560905729; version ID: 2098472213560905730. No public store share link is asserted yet.
