@@ -7,7 +7,7 @@ const assert = require('node:assert/strict');
 const source = fs.readFileSync(path.join(__dirname, '../include/SetupPage.h'), 'utf8');
 const assets = [...source.matchAll(/R"HTML\(([\s\S]*?)\)HTML"/g)].map(match => match[1]);
 const catalog = fs.readFileSync(path.join(__dirname, '../include/stations.h'), 'utf8');
-const names = [...catalog.matchAll(/\{"([^"]+)", "([^"]+)"/g)];
+const names = [...catalog.matchAll(/\{"([^"]+)", "[^"]+", "[^"]+", "([^"]+)"/g)];
 const html = assets[0] + '<h2>Connect to Wi-Fi</h2><form method="post" action="/connect"><input type="hidden" name="token" value="test">' + assets[1] + '<form id="stations-form" method="post" action="/stations"><input type="hidden" name="token" value="test"><fieldset><legend>Your stations</legend>' + names.map((m, i) => (i === 6 ? '<h3>More to explore</h3>' : '') + `<label class="station"><input type="checkbox" name="s${i}" value="1" ${i < 6 ? 'checked' : ''}><span>${m[1]}<small>${m[2]}</small></span></label>`).join('') + '</fieldset><button>Save stations</button><p id="stations-status" role="status"></p></form>' + assets[2] + '</body></html>';
 (async () => {
   const browser = await chromium.launch({headless:true});

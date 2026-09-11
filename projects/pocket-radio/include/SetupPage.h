@@ -1,7 +1,24 @@
 #pragma once
 
 static const char setupPageStart[] PROGMEM = R"HTML(<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pocket Radio setup</title><style>
-body{background:#10110f;color:#f3df69;font:17px system-ui,sans-serif;max-width:440px;margin:32px auto;padding:0 22px}h1{font-size:36px;margin-bottom:8px}h2{font-size:24px;margin-top:32px}p{line-height:1.5}label{display:block;margin:22px 0 8px}input,button{box-sizing:border-box;width:100%;padding:14px;font:inherit;border-radius:8px;border:1px solid #82783f}input{background:#20211b;color:#fff}button{background:#f3df69;color:#10110f;font-weight:bold;margin-top:20px;cursor:pointer}button:disabled{opacity:.5}a{color:inherit}.note{font-size:14px;color:#cac6a6}.status{padding:14px;border:1px solid #82783f;border-radius:8px}.station{display:flex;gap:14px;align-items:center;padding:12px;border:1px solid #454638;border-radius:8px;margin:8px 0}.station input{width:22px;height:22px;flex-shrink:0;accent-color:#f3df69}.station small{display:block;font-size:12px;color:#cac6a6;margin-top:4px}.secondary{background:transparent;color:#f3df69}.networks{max-height:225px;overflow:auto;margin-top:6px}.network{display:flex;justify-content:space-between;gap:10px;text-align:left;margin:3px 0;background:#20211b;color:#fff;font-weight:normal;overflow-wrap:anywhere}.network small{color:#cac6a6;white-space:nowrap}.network[aria-selected=true]{outline:2px solid #f3df69;outline-offset:-2px}.row{display:flex;gap:12px;align-items:center}.row button{width:auto;padding:8px;margin:0;font-size:14px}fieldset{border:0;padding:0;margin:0}legend{font-size:24px;font-weight:bold;margin:28px 0 12px}</style><body><p>YOUR LITTLE INTERNET RADIO</p><h1>Make it yours.</h1>)HTML";
+body{background:#10110f;color:#f3df69;font:16px/1.5 system-ui,sans-serif;max-width:440px;margin:28px auto;padding:0 22px}
+h1,h2,legend{font-size:24px;line-height:1.25;font-weight:600;margin:28px 0 16px}
+h1{margin-top:8px}h3{font:inherit;font-weight:600;margin:28px 0 8px}
+p{margin:12px 0}label{display:block;margin:20px 0 8px}
+input,button{box-sizing:border-box;width:100%;padding:12px;font:inherit;border-radius:3px;border:1px solid #82783f}
+input{background:#20211b;color:#fff}button{background:#f3df69;color:#10110f;font-weight:600;margin-top:20px;cursor:pointer}
+button:disabled{opacity:.5}a{color:inherit}small{font:inherit}.note,.station small,.network small{color:#cac6a6}
+.status{padding:16px 0;border-top:1px solid #454638;margin-top:24px}
+.station{display:flex;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid #454638;margin:0;cursor:pointer}
+.station input{width:22px;height:22px;flex-shrink:0;accent-color:#f3df69;margin:0}
+.station small{display:block;margin-top:2px}.secondary{background:transparent;color:#f3df69}
+.networks{max-height:225px;overflow:auto;margin-top:6px}
+.network{display:flex;justify-content:space-between;gap:10px;text-align:left;margin:0;padding:12px 4px;background:transparent;color:inherit;font-weight:400;border:0;border-bottom:1px solid #454638;border-radius:0;overflow-wrap:anywhere}
+.network small{white-space:nowrap}.network[aria-selected=true]{outline:2px solid #f3df69;outline-offset:-2px}
+:focus-visible{outline:2px solid #f3df69;outline-offset:3px}
+.row{display:flex;gap:12px;align-items:center}.row p{flex:1}.row button{width:auto;padding:8px;margin:0}
+fieldset{border:0;padding:0;margin:28px 0 0}legend{padding:0}#stations-status:empty{display:none}
+</style><body><p>Pocket Radio</p><h1>Make it yours.</h1>)HTML";
 
 static const char setupNetworkFields[] PROGMEM = R"HTML(<label for="ssid">Wi-Fi network</label><input id="ssid" name="ssid" maxlength="32" required autocapitalize="none" spellcheck="false" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="networks" aria-expanded="false"><div id="networks" class="networks" role="listbox" aria-label="Nearby Wi-Fi networks"></div><div class="row"><p id="scan-status" class="note" role="status">Looking for nearby networks…</p><button id="rescan" type="button" class="secondary">Refresh</button></div><noscript><p class="note">Type your network name above. Enable JavaScript to see nearby networks.</p></noscript><label for="password">Wi-Fi password</label><input id="password" name="password" type="password" maxlength="64" autocomplete="new-password"><p class="note">Choose a 2.4 GHz network, or type a hidden network's name. Leave the password empty for an open network. Hotel sign-in pages and enterprise Wi-Fi aren't supported.</p><button>Connect &amp; play</button></form>)HTML";
 

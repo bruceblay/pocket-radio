@@ -31,7 +31,7 @@ class WifiSetup {
         if (i == defaultStationCount) html += "<h3>More to explore</h3>";
         html += "<label class=\"station\"><input type=\"checkbox\" name=\"s" + String(i) + "\" value=\"1\"";
         if (selection.includes(i)) html += " checked";
-        html += "><span>" + portalEscape(String(stations[i].name)) + "<small>" + portalEscape(String(stations[i].mood)) + "</small></span></label>";
+        html += "><span>" + portalEscape(String(stations[i].name)) + "<small>" + portalEscape(String(stations[i].description)) + "</small></span></label>";
       }
       html += "</fieldset><button>Save stations</button><p id=\"stations-status\" class=\"note\" role=\"status\"></p></form>";
       if (hasSaved()) html += "<form action=\"/resume\" method=\"post\"><input type=\"hidden\" name=\"token\" value=\"" + token + "\"><button class=\"secondary\">Return to radio</button><p class=\"note\">Uses your saved Wi-Fi. Save station changes first.</p></form>";
