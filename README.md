@@ -2,11 +2,11 @@
 
 A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in speaker, choose your stations from a phone, and shake the radio to change its monochrome color.
 
-[M5Burner store · StickS3](https://burner.m5stack.com/device/sticks3) · [Buy a StickS3](https://shop.m5stack.com/products/m5sticks3-esp32s3-mini-iot-dev-kit)
+[Buy a StickS3](https://shop.m5stack.com/products/m5sticks3-esp32s3-mini-iot-dev-kit)
 
 <img src="docs/images/pocket-radio-scale.jpg" alt="Pocket Radio playing KEXP on a StickS3 beside an earbud for scale" width="720">
 
-**Version 0.1.0:** [Download firmware and source](https://github.com/bruceblay/pocket-radio/releases/tag/v0.1.0). Clean installation through M5Burner, phone Wi-Fi setup, and playback have been confirmed on a StickS3. M5Burner public review is pending; the store link above opens the StickS3 catalog until Pocket Radio has an approved public listing.
+**Version 0.1.0:** [Download firmware and source](https://github.com/bruceblay/pocket-radio/releases/tag/v0.1.0). Clean installation through M5Burner, phone Wi-Fi setup, and playback have been confirmed on a StickS3. Pocket Radio is awaiting M5Burner approval; its direct app link will be added when public sharing becomes available.
 
 ## Features
 
