@@ -1,6 +1,6 @@
 # Pocket Radio
 
-A small StickS3 internet radio inspired by [VVORLDWIDE](https://vvorldwide.com/). Ten available live stations, with the original six selected by default, a monochrome color dial, play/stop, bounded volume and automatic retries. MP3 playback has been heard on hardware; new presets still need listening validation.
+A small StickS3 internet radio. Ten available live stations, with the original six selected by default, a monochrome color dial, play/stop, bounded volume and automatic retries. MP3 playback has been heard on hardware; new presets still need listening validation.
 
 ## Setup
 
@@ -60,7 +60,7 @@ Stopping closes the stream; resuming rejoins the live broadcast. The radio start
 
 ## Stations and limitations
 
-Edit `include/stations.h` to change presets. Use short display names and direct HTTPS MP3 URLs. New broadcasters may require an additional CA root in `include/root_ca.h`. Current dial: Tiki Time, Illinois Street Lounge, KEXP, NTS 1, KCRW Eclectic 24 and Radio Paradise. Selected from [VVORLDWIDE](https://vvorldwide.com/), connecting directly to each broadcaster. Support the stations you enjoy.
+Edit `include/stations.h` to change presets. Use short display names and direct HTTPS MP3 URLs. New broadcasters may require an additional CA root in `include/root_ca.h`. Current dial: Tiki Time, Illinois Street Lounge, KEXP, NTS 1, KCRW Eclectic 24 and Radio Paradise. Streams connect directly to each broadcaster. Support the stations you enjoy.
 
 Wi-Fi and NTP must work before playback. Captive portals and enterprise Wi-Fi are not supported. The status line reports connection, clock sync and retry states. Failed streams retry after ten seconds; Wi-Fi reconnects every fifteen seconds. Network calls can briefly delay input. There is no track metadata or favorites storage. Direct MP3 responses still cannot use chunked transfer encoding. All presets now use direct MP3 streams.
 

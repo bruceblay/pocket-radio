@@ -38,4 +38,4 @@ To change your dial, check your stations and tap **Save stations**, then **Retur
 
 For StickS3 only. Uses the built-in speaker; Bluetooth speaker audio is not supported. Requires ordinary 2.4 GHz Wi-Fi with internet access; hotel sign-in pages and enterprise Wi-Fi are unsupported. Battery percentage is approximate. Volume is limited for battery stability. Station availability depends on each broadcaster; network stalls can briefly delay controls. Custom stream URLs and track titles are not supported in this version.
 
-Inspired by [VVORLDWIDE](https://vvorldwide.com/), with an audio adapter based on M5Stack's web-radio example. Streams connect directly to the broadcasters; support the stations you enjoy.
+The audio adapter is based on M5Stack's web-radio example. Streams connect directly to the broadcasters; support the stations you enjoy.

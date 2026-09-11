@@ -20,9 +20,7 @@ The first version accepts direct MP3 responses, not station web pages, PLS/M3U p
 
 Preset endpoints come from the official [Groove Salad](https://somafm.com/groovesalad.pls), [Drone Zone](https://somafm.com/dronezone.pls) and [DEF CON Radio](https://somafm.com/defcon.pls) playlists. Playlist retrieval succeeded during research. Stream reachability is separately tested and is not guaranteed by a published URL. [Support SomaFM](https://somafm.com/support/).
 
-## Inspiration and community
-
-[VVORLDWIDE](https://vvorldwide.com/) presents curated internet radio through a yellow-on-black, monospaced receiver interface with tuning, presets and discovery. Its HTML was inspected directly because the research browser could not open it. Pocket Radio adopts the idea of a small curated dial with its own name and implementation. No VVORLDWIDE code, artwork, branding or station database is copied.
+## Community
 
 Useful contributions: tested station presets, device setup fixes, reproducible audio bug reports, better reconnection, accessible controls and photos/video of real hardware. Keep credentials out of commits and release binaries. Record exact library versions and distinguish compilation from a listening test.
 

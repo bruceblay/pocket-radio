@@ -2,7 +2,7 @@
 #include <cstddef>
 #include <cstdint>
 // Saved selection bits follow this order; append new presets or migrate saved masks when reordering.
-// Original dial inspired by https://vvorldwide.com/; extras from SomaFM.
+// Curated live stations, including optional SomaFM channels.
 // Connect directly to each broadcaster.
 struct Station { const char* name; const char* mood; const char* url; };
 constexpr Station stations[] = {

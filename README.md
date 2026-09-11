@@ -1,6 +1,6 @@
 # Pocket Radio
 
-A tiny internet radio for the **M5Stack StickS3**, inspired by [VVORLDWIDE](https://vvorldwide.com/). Listen through the built-in speaker, choose your stations from a phone, and shake the radio to change its monochrome color.
+A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in speaker, choose your stations from a phone, and shake the radio to change its monochrome color.
 
 **Status:** early release candidate, `0.1.0-rc1`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
 
