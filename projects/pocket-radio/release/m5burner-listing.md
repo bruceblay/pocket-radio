@@ -1,14 +1,14 @@
-# M5Burner listing draft
+# M5Burner listing
 
 Name: **Pocket Radio**
 
 Device: **StickS3**
 
-Candidate version: **0.1.0-rc1**
+Version: **0.1.0**
 
 GitHub: https://github.com/bruceblay/pocket-radio
 
-Cover: Pending real device image.
+Cover: `docs/images/pocket-radio-playing.png` (device photo).
 
 ## Description
 

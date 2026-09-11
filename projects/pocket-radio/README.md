@@ -128,3 +128,7 @@ The original six are checked on a fresh device. Four optional stations start unc
 Version `0.1.0-rc1` appears in the setup footer and USB `?` diagnostics (also available during setup). If clock sync has not completed after 30 seconds, the status changes to **CLOCK FAILED / CHECK WI-FI** and retries every 30 seconds; hold A+B to return to setup.
 
 See [release packaging](release/README.md) for the isolated build and clean factory-image workflow. Factory images reset settings; application-only upgrades preserve the existing matching layout and settings. Publication and full hardware acceptance are still pending.
+
+## License
+
+Original Pocket Radio code is copyright 2026 Bruce Blay and licensed under GPL-3.0-or-later: you may redistribute and modify it under GNU GPL version 3 or, at your option, any later version. It is provided without warranty. See LICENSE. Third-party files retain their own license notices.

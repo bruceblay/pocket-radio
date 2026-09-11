@@ -1,6 +1,6 @@
 # Pocket Radio distribution review — September 11, 2026
 
-Project license choice is pending. GPL-3.0-or-later is the proposed choice for original Pocket Radio code, based on the audio wrapper used by this build. No project license has been applied yet.
+Bruce approved GPL-3.0-or-later for original Pocket Radio code on September 11, 2026. The license text is in the repository root and firmware project. Upstream files retain their original notices. Dependency corresponding-source preparation remains in progress.
 
 Read directly from the installed, pinned source:
 

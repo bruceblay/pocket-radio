@@ -4,7 +4,7 @@ A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in s
 
 <img src="docs/images/pocket-radio-playing.png" alt="Pocket Radio playing Tiki Time on a StickS3" width="720">
 
-**Status:** early release candidate, `0.1.0-rc1`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
+**Status:** preparing the first release, `0.1.0`. Basic playback and phone Wi-Fi setup have been tested on hardware. Full release acceptance and M5Burner distribution are in progress; there is no published firmware release yet.
 
 ## Features
 
@@ -56,8 +56,8 @@ See the [full setup, controls, limitations, and test instructions](projects/pock
 
 The firmware lives in `projects/pocket-radio/`; shared research and release notes live in `docs/`. Build checks run on pushes and pull requests. Please report playback issues with the station, firmware version, power source, and relevant diagnostics—never Wi-Fi passwords or device flash dumps.
 
-## Credits and licensing status
+## Credits and licensing
 
 The speaker adapter is based on [M5Stack's web-radio example](https://github.com/m5stack/M5Unified/blob/master/examples/Advanced/WebRadio_with_ESP8266Audio/WebRadio_with_ESP8266Audio.ino); its MIT notice is retained. Audio decoding uses ESP8266Audio and libmad. Stations stream directly from their broadcasters; support the stations you enjoy.
 
-A license for original project code has not yet been selected. Existing third-party notices and licenses still apply. See the [distribution license review](docs/license-review.md); public firmware distribution and complete corresponding-source preparation remain pending.
+Original Pocket Radio code is licensed under [GPL-3.0-or-later](LICENSE). Third-party components retain their respective licenses and notices. See the [distribution license review](docs/license-review.md) for dependency details.
