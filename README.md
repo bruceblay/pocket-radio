@@ -2,7 +2,7 @@
 
 A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in speaker, choose your stations from a phone, and shake the radio to change its monochrome color.
 
-<img src="docs/images/pocket-radio-playing.png" alt="Pocket Radio playing Tiki Time on a StickS3" width="720">
+<img src="docs/images/pocket-radio-scale.jpg" alt="Pocket Radio playing KEXP on a StickS3 beside an earbud for scale" width="720">
 
 **Version 0.1.0:** [Download firmware and source](https://github.com/bruceblay/pocket-radio/releases/tag/v0.1.0). Clean installation through M5Burner, phone Wi-Fi setup, and playback have been confirmed on a StickS3. M5Burner public review is pending.
 

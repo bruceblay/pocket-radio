@@ -2,6 +2,7 @@
 
 Owner-supplied device photographs and phone screenshots, September 11, 2026. Originals remain outside the repository. Only reviewed publication copies are committed.
 
+- `pocket-radio-scale.jpg`: unedited owner-supplied photograph showing the radio beside an earbud for scale; README lead image.
 - `pocket-radio-playing.png`: device playback photograph, cropped.
 - `pocket-radio-setup.png`: device setup photograph, cropped with the password obscured.
 - `phone-wifi.png`: Wi-Fi picker screenshot with nearby network names obscured.
