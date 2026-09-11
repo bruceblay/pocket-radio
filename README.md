@@ -15,6 +15,14 @@ A tiny internet radio for the **M5Stack StickS3**. Listen through the built-in s
 
 ## On the device and your phone
 
+Shake to change the monochrome color:
+
+<p>
+  <img src="docs/images/lounge-cyan.png" alt="Illinois Street Lounge playing in cyan" width="350">
+  <img src="docs/images/kexp-green.png" alt="KEXP playing in green" width="350">
+  <img src="docs/images/nts-magenta.png" alt="NTS 1 playing in magenta" width="350">
+</p>
+
 The radio displays the details for joining its setup network. Your phone handles Wi-Fi selection and station choices.
 
 <img src="docs/images/pocket-radio-setup.png" alt="StickS3 setup instructions with the temporary password obscured" width="720">
